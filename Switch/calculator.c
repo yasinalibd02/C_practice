@@ -7,30 +7,30 @@ int main()
 
     char choise;
 
-    printf("enter two number\n");
-    scanf("%lf ,%lf", &num1, &num2);
+    printf("enter two number : ");
+    scanf("%lf %lf", &num1, &num2);
 
     printf("Enter your maths (+, - , / , * ) : ");
     scanf("%c",&choise);
 
     switch (choise)
     {
-    case '+':
+    case +:
     {
         printf("%lf + %lf = %lf\n", num1, num2, num1 + num2);
 
         break;
     }
-    case '-':
+    case -:
     {
         printf("%lf  - %lf = %lf\n", num1, num2, num1 - num2);
         break;
     }
-    case '*':
+    case *:
         printf("%lf  *  %lf = %lf\n", num1, num2, num1 * num2);
         break;
 
-    case '/':
+    case /:
      {   printf("%lf  /  %lf = %lf\n", num1, num2, num1 / num2);
         break;
      }
@@ -38,4 +38,5 @@ int main()
       {  printf("Not Valid Number");
         break;
     }
+}
 }
