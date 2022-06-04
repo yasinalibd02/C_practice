@@ -10,7 +10,7 @@ int main(){
      for ( i =1; i <=num; i=i+2)
      {
         printf(" %d\n",i);
-        sum =sum+i;
+        sum =sum+i * i;
      }
 
      printf(" The sum is = %d\n",sum);
