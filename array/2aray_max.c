@@ -1,24 +1,34 @@
 #include<stdio.h>
 
-int main(){
-    int num[100],n,i;
-
-    printf("how many number : ");
+void main(){
+     int num[100],i,sum,n;
+     
+   
+    printf("How many numbers : ");
     scanf("%d",&n);
 
     for ( i = 0; i <n; i++)
     {
-        printf("%d",&num[i]);
+        scanf("%d",&num[i]);
     }
-    int max=num[0];
-
-    for (i = 1; i <n; i++)
-    {
-      if (max <num[i])
-           max=num[i];
     
+     sum=num[0];
+
+    for ( i =1; i <n; i++)
+    {
+        if (sum<num[i])
+          sum=num[i];
+        
+        
     }
-    printf("max number is : %d\n",max);
+
+    printf("The MAX number is : %d\n", sum);
+   
+    
+    
+
+    
+
     
     
 }
