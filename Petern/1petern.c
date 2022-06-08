@@ -3,7 +3,7 @@
 int main(){
     int i,j,n;
     
-
+   //follow tech crash course in google for better petern
     printf("Enter your number : ");
     scanf("%d",&n);
 

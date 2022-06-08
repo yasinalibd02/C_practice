@@ -2,7 +2,7 @@
 
 int main(){
     int row,col,n;
-
+//follow tech crash course in google for better petern
     printf("enter your number : ");
     scanf("%d",&n);
 

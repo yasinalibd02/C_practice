@@ -17,16 +17,16 @@ int main()
          printf(" ");
        }
          //for peramid
-       for (col=1; col <=2*row-1; col++)
+       for (col=1; col <=row; col++)
        {
-         printf("*");
+         printf("* ");
        }
        printf("\n");
        
    }
 
-   
-   for (row= n-1; row>=1; row--)
+
+     for (row= n-1; row>=1; row--)
    {
        //for space
        for (col=1; col <=n-row; col++)
@@ -34,9 +34,9 @@ int main()
          printf(" ");
        }
          //for peramid
-       for (col=1; col <=2*row-1; col++)
+       for (col=1; col <=row; col++)
        {
-         printf("*");
+         printf("* ");
        }
        printf("\n");
        
