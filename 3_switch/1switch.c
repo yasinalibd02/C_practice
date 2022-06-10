@@ -9,47 +9,50 @@ int main(){
     switch (digit)
     {
     case 0:
-        printf(" zero",digit);
+        printf("ZERO");
         break;
 
         case 1:
-        printf(" one",digit);
+        printf("ONE");
         break;
 
         case 2:
-        printf(" two",digit);
+        printf("TWO");
         break;
 
         case 3:
-        printf(" three",digit);
+        printf("THREE");
         break;
 
         case 4:
-        printf(" four",digit);
+        printf("FOUR");
         break;
 
         case 5:
-        printf(" five",digit);
+        printf("FIVE");
         break;
 
         case 6:
-        printf(" six",digit);
+        printf("SIX");
         break;
 
         case 7:
-        printf(" seven",digit);
+        printf("SEVEN");
         break;
 
         case 8:
-        printf(" eight",digit);
+        printf("EIGHT");
         break;
 
         case 9:
-        printf(" nine",digit);
+        printf("NINE");
         break;
+
+        
+
     
     default:
-     printf(" not a digit");
+    printf("Not a Number");
         break;
     }
 }
