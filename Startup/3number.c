@@ -1,14 +1,15 @@
 #include<stdio.h>
 #include<math.h>
 
+//input a total apple and average in centimerters output in miters..... 
+
 int main(){
     float apple,avg,weight;
 
-    printf("enter your three apple & avg : ");
-    scanf("%f %lf",&apple ,&avg);
+    printf("Enter your apple and avg : ");
+    scanf("%f %f",&apple ,&avg);
 
-   weight=apple * avg *1000;
-   
-    printf(" area = %.2f\n",weight); 
+    weight=apple*avg /1000;
+    printf("Weight is = %2.f\n",weight);
   
 }

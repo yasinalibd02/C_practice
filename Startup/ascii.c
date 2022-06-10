@@ -1,8 +1,10 @@
 #include<stdio.h>
 
+//enter a number and print a charecter type
+
 void main(){
-    int A;
-    printf("Enter your ascii : ");
-    scanf("%d",&A);
-    printf("This your char :%c\n",A);
+  int numberToChar;
+  printf("Enter your number : ");
+  scanf("%d",&numberToChar);
+  printf("Asciie Value Is = %c\n",numberToChar);
 }
