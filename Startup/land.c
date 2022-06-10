@@ -2,10 +2,16 @@
 
 void main(){
 
-     int a;
+     double land,height,area;
 
-     printf(" enter your number : ");
+     printf(" enter your land and height : ");
+     scanf("%lf %lf",&land , &height);
 
-     scanf("%d",&a);
-     printf("%10d\n",a);
+     area = land * height *.5;
+
+     printf("area is %lf\n",area);
+
+
+
+    
 }
