@@ -1,20 +1,22 @@
 #include<stdio.h>
 int main(){
-    int height,needTicket;
+    int player;
 
-    printf("enter your age : ");
-    scanf("%d",&height);
+    printf("enter your number :");
+    scanf("%d",&player);
 
-    
-    if (needTicket=height <=36)
-    {
-        printf("No Need ticket");
-    }
+      
+      if (player <=11 &&  player >=0)
+      {
+        printf("player");
+      }
 
-    else {
-        printf("Ticket Needed");
-    }
-
+      else
+      {
+        printf("not a player");
+      }
+      
+      
 }
     
 

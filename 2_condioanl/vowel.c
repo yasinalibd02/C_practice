@@ -13,7 +13,7 @@ void main(){
      }
         
        else {
-           printf("consonat");
+           printf("consonat"); 
        }
    
 

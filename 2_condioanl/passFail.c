@@ -7,13 +7,12 @@ int main()
     printf(" Enter your number : ");
     scanf("%d", &num);
 
-    if (num >= 33)
+    if (num>=33)
     {
-        printf("  Pass");
+       printf("  pass");
     }
-
     else{
-        printf("  Fail");
-
+        printf("  fail");
     }
+    
 }

@@ -1,41 +1,44 @@
 #include<stdio.h>
 
+int main(int argc, char const *argv[])
+{
+    int marks;
+    printf("enter your marks : ");
+    scanf("%d",&marks);
 
-int main(){
-
-    int Marks;
-
-    printf("Enter your marks : ");
-    scanf("%d",&Marks);
-
-    if(Marks >=80 && Marks <= 100)
-    {
+     if (marks <= 100 && marks >=80)
+     {
         printf("A+");
-    }
-    else if(Marks >=70 && Marks <= 79)
-    {
+     }
+
+     else if (marks <=79 && marks >=70)
+     {
         printf("A");
-    }
-    else if(Marks >=60 && Marks <= 69)
-    {
+     }
+      else if (marks <=69 && marks >=60)
+     {
         printf("A-");
-    }
-    else if(Marks >=50 && Marks <= 59)
-    {
+     }
+      else if (marks <=59 && marks >=50)
+     {
         printf("B");
-    }
-    else if(Marks >=40 && Marks <= 49)
-    {
+     }
+       else if (marks <=49 && marks >=40)
+     {
         printf("C");
-    }
-    else if(Marks >=33 && Marks <= 39)
-    {
+     }
+       else if (marks <=39 && marks >=33)
+     {
         printf("D");
-    }
+     }
+     else
+     {
+        printf("fail");
+     }
+     
+     
+     
 
 
-    else{
-        printf("F");
-    }
-
+    return 0;
 }
