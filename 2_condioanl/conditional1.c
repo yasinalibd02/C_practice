@@ -1,3 +1,4 @@
+//input a number is pass to print 1 or fail to print 0....
 
 #include<stdio.h>
 int main(){
