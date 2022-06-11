@@ -1,16 +1,19 @@
 #include<stdio.h>
 
+
 int main(){
-  int fact=1,i,num;
+
+  int i,num;
 
   printf("enter your number : ");
   scanf("%d",&num);
 
-  for ( i = 1; i <=num; i++)
+  for ( i = 1; i <=10; i++)
   {
-    fact=fact*i;
+    printf("%d * %d = %d\n",num,i,num*i);
   }
-  printf("%d\n",fact);
   
+   
+
     
 }
