@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//all number gun fol 
 int main(){
 
     int i,num,sum=1;
@@ -9,7 +9,7 @@ int main(){
 
     for ( i = 1; i <=num; i++)
     {
-       sum = (sum *i );
+       sum = sum *i ;
     }
 
     printf(" multipied = %d\n",sum);

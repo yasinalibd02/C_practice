@@ -7,8 +7,9 @@ int main()
     
 
     printf("Enter your numbers : ");
-    scanf("%d ", &num);
+    scanf("%d", &num);
      tem = num;
+
 
    
 

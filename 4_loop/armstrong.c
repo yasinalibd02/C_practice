@@ -5,7 +5,7 @@ int main()
     int tem, r, num, sum = 0;
 
     printf("Enter your numbers : ");
-    scanf("%d ", &num);
+    scanf("%d", &num);
     tem = num;
 
     while (tem != 0)

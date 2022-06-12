@@ -5,13 +5,13 @@ int main()
     int tem, r, num, sum = 0;
 
     printf("Enter your numbers : ");
-    scanf("%d ", &num);
+    scanf("%d", &num);
     tem = num;
 
     while (tem != 0)
     {
         r= tem %10;
-        sum =sum *10 +r;
+        sum =sum * 10 +r;
         tem =tem/10;
     }
 

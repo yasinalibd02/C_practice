@@ -1,14 +1,16 @@
 #include<stdio.h>
 
 void main(){
-   int i,sum=0,
-   num []= {1,4,6,8,22};
+   int i,sum=0;
 
-   for ( i = 0; i<4; i++)
+   int array[]={1,2,3,4,5};
+
+   for ( i = 0; i <5; i++)
    {
-      sum =sum+num[i];
+     sum=sum +array[i];
    }
-   printf("%d\n",sum);
+
+   printf("%d",sum);
    
 
     

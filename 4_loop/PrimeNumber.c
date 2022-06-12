@@ -1,32 +1,33 @@
+#include<stdio.h>
 
-#include <stdio.h>
-int main()
-{
+int main(){
 
-    int num;
-    int count = 0;
+  int i,n,count=0;
 
-    printf("Enter any number : ");
-    scanf("%d", &num);
+  printf("enter your n : ");
+  scanf("%d",&n);
 
-    for (int  i = 2; i <num; i++)
+  for ( i = 2; i <=n; i++)
+  {
+    if (n % 2==0)
     {
-        if ( num % i == 0)
-        {
-            count ++;
-            break;
-        }
-        
+     count++;
+     break;
     }
 
+    
+    
+  }
+
+  
     if (count == 0)
     {
-        printf("Prime ");
+    printf("prime");
     }
-    else
-    {
-        printf("Not a Prime");
-    }
-    
-    
+
+  else
+  {
+    printf("not a prime");
+  }
+  
 }
