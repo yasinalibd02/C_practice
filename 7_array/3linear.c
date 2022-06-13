@@ -18,7 +18,7 @@ void main(){
    
   }
 
-  printf("pritn %d\n",postion);
+  printf("pritn your name  %d\n",postion);
   
   
 
