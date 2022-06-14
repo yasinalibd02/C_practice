@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+//******************     print the max number of all each number 
 int main(){
 
     int i,Index[10],number,max;
