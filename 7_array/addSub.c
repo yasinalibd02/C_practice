@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main(){
    /* 2D array declaration*/
-   int a[2][2],b[2][2],c[2][2];
+   int a[100][100],b[100][100],c[100][100];
+
 
 
    
@@ -67,7 +68,7 @@ int main(){
        printf("%d\n : ",c[i][j]);
     }
     printf("\n");
-    
+   
    }
    
 
