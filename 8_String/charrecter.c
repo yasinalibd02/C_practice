@@ -6,9 +6,9 @@ void main(){
     
    int i=0;
 
-   while (S[i] !='\0')
+   while (S[i] != '\0')
    {
-     printf("%c",S[i]);
+     printf("%c\n",S[i]);
      i++;
    }
    
