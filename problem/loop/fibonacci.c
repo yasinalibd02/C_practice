@@ -2,27 +2,37 @@
 int main() {
 
   int i, n;
-
-  // initialize first and second terms
-  int t1 = 0, t2 = 1;
-
-  // initialize the next term (3rd term)
-  int nextTerm = t1 + t2;
-
-  // get no. of terms from user
   printf("Enter the number of terms: ");
   scanf("%d", &n);
 
-  // print the first two terms t1 and t2
-  printf("Fibonacci Series: %d, %d, ", t1, t2);
+  int fibo,first=0,second= 1,count=0;
 
-  // print 3rd to nth terms
-  for (i = 3; i <= n; ++i) {
-    printf("%d, ", nextTerm);
-    t1 = t2;
-    t2 = nextTerm;
-    nextTerm = t1 + t2;
-  }
+    while (count <n)
+    {
+      if (count <=1)
+      {
+        fibo=count;
+      }
 
-  return 0;
+      else
+      {
+        fibo=first+second;
+        first=second;
+        second=fibo;
+      }
+
+      printf(" %d,",fibo);
+      count++;
+      
+      
+    }
+    
+
+
+
+
+  
+
+
+
 }
