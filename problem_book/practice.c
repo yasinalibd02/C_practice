@@ -1,17 +1,17 @@
 #include<stdio.h>
-
-
+#include<math.h>
 
 int main(){
-  
-  int num1;
-  
-  printf("enter your taka  : ");
+double input;
 
-  scanf("%d",&num1);
+printf("enter your  : ");
+scanf("%lf",&input);
+printf("%e",input);
 
-  printf("%x",num1);
 
-  
+
+
+
+
 
 }
