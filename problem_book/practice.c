@@ -2,15 +2,15 @@
 #include<math.h>
 
 int main(){
-double input;
+double inch,feet,meter;
 
-printf("enter your  : ");
-scanf("%lf",&input);
-printf("%e",input);
+printf("enter meter : ");
+scanf("%lf",&meter);
 
+feet =meter *3.28084;
+inch=(feet -(int ) feet)*12;
 
-
-
+printf("feet %d , inch %lf\n",(int) feet , inch);
 
 
 
