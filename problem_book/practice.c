@@ -1,12 +1,31 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
-    int a,b,c,condition;
+int main() {
 
-    printf("enter your number : ");
-    scanf("%d %d %d",&a,&b,&c);
+   int a = 5;
+   int b = 20;
+   int c ;
 
-    condition=a && (b||c);
-    printf("man nirroi %d\n",condition);
-    
+   if ( a && b ) {
+      printf("Line 1 - Condition is true\n" );
+   }
+	
+   if ( a || b ) {
+      printf("Line 2 - Condition is true\n" );
+   }
+   
+   /* lets change the value of  a and b */
+   a = 0;
+   b = 10;
+	
+   if ( a && b ) {
+      printf("Line 3 - Condition is true\n" );
+   } else {
+      printf("Line 3 - Condition is not true\n" );
+   }
+	
+   if ( !(a && b) ) {
+      printf("Line 4 - Condition is true\n" );
+   }
+	
 }
