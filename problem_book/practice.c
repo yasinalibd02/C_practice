@@ -1,31 +1,14 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
+int main(){
+  float meter,feet,inch;
+  
 
-   int a = 5;
-   int b = 20;
-   int c ;
+  printf("enter your meter : ");
+  scanf("%f",&meter);
 
-   if ( a && b ) {
-      printf("Line 1 - Condition is true\n" );
-   }
-	
-   if ( a || b ) {
-      printf("Line 2 - Condition is true\n" );
-   }
-   
-   /* lets change the value of  a and b */
-   a = 0;
-   b = 10;
-	
-   if ( a && b ) {
-      printf("Line 3 - Condition is true\n" );
-   } else {
-      printf("Line 3 - Condition is not true\n" );
-   }
-	
-   if ( !(a && b) ) {
-      printf("Line 4 - Condition is true\n" );
-   }
-	
+  feet = meter *3.28084;
+  inch=(feet - (int) feet)*12;
+
+  printf(" feet %d inch %.2f\n",(int)feet , inch);                                                              
 }
