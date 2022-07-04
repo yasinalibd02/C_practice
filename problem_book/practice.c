@@ -1,14 +1,20 @@
 #include<stdio.h>
 
 int main(){
-  float meter,feet,inch;
-  
+int number;
 
-  printf("enter your meter : ");
-  scanf("%f",&meter);
+printf("enter your number : ");
+scanf("%d",&number);
 
-  feet = meter *3.28084;
-  inch=(feet - (int) feet)*12;
+if (number % 3 == 0)
+{
+  printf("It's multiple of 3\n");
+}
+if (number %  5 == 0)
+{
+  printf("It's multiple of 5");
+}
 
-  printf(" feet %d inch %.2f\n",(int)feet , inch);                                                              
+
+
 }
