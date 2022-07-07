@@ -12,7 +12,7 @@ if (Celcius < 0)
 
 }
 
-if (Celcius && 0 >= 100)
+if (Celcius >= 0 && Celcius <= 100)
 {
   printf("lequade");
  
