@@ -2,9 +2,9 @@
 
 int main(){
 
-   for (int i = 0; i <=100; i++)
+   for (int i = 5; i < 10; i++)
    {
-    printf(" yasin %d \n",i);
+    printf(" Ovi %d \n",i);
    }
    
 }

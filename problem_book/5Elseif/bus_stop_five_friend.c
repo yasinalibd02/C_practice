@@ -11,16 +11,15 @@ printf("enter your passenger number: ");
 scanf("%d",&passengers);
 
 
-if (sit > friend < passengers )
+if (sit - passengers >=  friend )
 {
-  printf("you are sit");
+  printf("we  are enough sit");
 
 }
 
-if (sit > friend != passengers)
-{
-  printf("you are not to sit ");
-
+if (sit - passengers <  friend )
+{ 
+  printf("we  are not enough sit");
 }
 
 
