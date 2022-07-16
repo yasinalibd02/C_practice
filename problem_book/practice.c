@@ -2,22 +2,23 @@
 
 int main() {
 
-  double n1, n2, n3,n4;
+  int cow1,cow2,cow3 ,cow4,cow5,cow6;
 
-  printf("Enter four different numbers: ");
-  scanf("%lf %lf %lf %lf ", &n1, &n2, &n3 ,&n4);
+  printf("Enter first person amount: ");
+  scanf("%d %d %d",&cow1,&cow2,&cow3);
 
-  // if n1 is greater than both n2 and n3, n1 is the largest
-  if (n1 >= n2 && n1 >= n3 && n1 >= n4)
-    printf("%.2f is the largest number.", n1);
+  printf("Enter second person amount: ");
+  scanf("%d %d %d",&cow4,&cow5,&cow6);
 
-  // if n2 is greater than both n1 and n3, n2 is the largest
-  if (n2 >= n1 && n2 >= n3)
-    printf("%.2f is the largest number.", n2);
+  if (cow1+cow2+cow3  >cow4+cow5+cow6)
+  {
+    printf("first person amount is more");
+  }
 
-  // if n3 is greater than both n1 and n2, n3 is the largest
-  if (n3 >= n1 && n3 >= n2)
-    printf("%.2f is the largest number.", n3);
+  else{
+  printf("second person amount is more");
+  }
+  
 
-  return 0;
+  
 }
