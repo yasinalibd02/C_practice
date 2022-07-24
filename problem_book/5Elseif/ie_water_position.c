@@ -7,28 +7,19 @@ printf("enter your Celcius Temparature : ");
 scanf("%d",&Celcius);
 
 
-if (Celcius >= 0 && Celcius <= 100)
+if (Celcius < 0)
 {
-  printf("lequade");
- 
+  printf("Ice");
+}
+else if (Celcius >=0 && Celcius <=100)
+{
+ printf("Lequde");
 }
 
-else if (Celcius < 0)
-{
-  printf("ice");
-
-}
-
-
-else 
+else
 {
   printf("air");
 }
-
-
-
-
-
 
 
 }
