@@ -1,18 +1,30 @@
 #include<stdio.h>
 
 int main(){
-  int i,n=5;
+  int s=0;
+  char c;
+
+
+  printf("enter your number: ");
+ while (scanf("%c",&c) && c!='\n')
+ {
+   s += c-'0';
+ }
+ if (s%3 ==0)
+ {
+  printf("yes\n");
+ }
+
+ else{
+  printf("no\n");
+ }
+ 
+ 
+
+
+
+
   
-
-
-
-
-  for ( i = 1; i <=10; i++,n+=5)
-  {
-    printf("%d\n",n);
-    
-   
-  }
 
 
   
