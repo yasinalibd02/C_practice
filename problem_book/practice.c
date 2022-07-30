@@ -1,31 +1,20 @@
 #include<stdio.h>
 
-int main(){
-  int s=0;
-  char c;
+void main(){
+  int i,sum=0,temp,num,remainder;
 
-
-  printf("enter your number: ");
- while (scanf("%c",&c) && c!='\n')
- {
-   s += c-'0';
- }
- if (s%3 ==0)
- {
-  printf("yes\n");
- }
-
- else{
-  printf("no\n");
- }
- 
- 
+  printf("enter your number : ");
+  scanf("%d",&num);
 
 
 
+  while (num != 0)
+  {
+    remainder=  num %10;
+    sum = sum +remainder;
 
-  
-
-
+    num = num /10;
+  }
+  printf("%d",sum);
   
 }
