@@ -1,20 +1,12 @@
 #include<stdio.h>
 
 void main(){
-  int i,sum=0,temp,num,remainder;
+  int a,b;
 
-  printf("enter your number : ");
-  scanf("%d",&num);
+  scanf("%d %d",&a,&b);
 
+  int c= a || !b;
 
-
-  while (num != 0)
-  {
-    remainder=  num %10;
-    sum = sum +remainder;
-
-    num = num /10;
-  }
-  printf("%d",sum);
+  printf("%d",c);
   
 }

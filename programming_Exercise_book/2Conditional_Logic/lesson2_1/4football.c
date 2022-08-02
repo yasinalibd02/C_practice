@@ -18,7 +18,7 @@ int main(){
 
 
 
-    france_next_round =  france_goal > spain_goal  && !its_rain;
+    france_next_round =  (france_goal > spain_goal)  && !its_rain;
     
     printf("France go to next round = %d\n ",france_next_round);
 

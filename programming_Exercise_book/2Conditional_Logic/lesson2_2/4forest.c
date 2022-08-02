@@ -13,13 +13,13 @@ scanf("%d",&chocolate);
 
 if (animals < chocolate)
 {
-  printf("rimon ");
+  printf("passs the forest ");
 
 }
 
 if (animals >  chocolate)
 {
-  printf("sourov");
+  printf("attacked by animals");
 
 }
 
