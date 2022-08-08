@@ -2,15 +2,16 @@
 #include <stdio.h>
 
 int main() {
-   double number, squareRoot;
 
-   printf("Enter a number: ");
-   scanf("%lf", &number);
+  int i,n=3;
 
-   // computing the square root
-   squareRoot = sqrt(number);
+//   printf("enter your number : ");
+//   scanf("%d",&n);
 
-   printf("Square root of %.2lf =  %.2lf", number, squareRoot);
-
-   return 0;
+  for (i = 1; i <=10; i++,n = n+3)
+  {
+   printf(" %d\n",n);
+  }
+  
+   
 }
