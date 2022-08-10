@@ -3,15 +3,22 @@
 
 int main() {
 
-  int i,n=3;
+ int i,sum=0,n;
 
-//   printf("enter your number : ");
-//   scanf("%d",&n);
+ printf("enter your number : ");
+ scanf("%d",&n);
 
-  for (i = 1; i <=10; i++,n = n+3)
-  {
-   printf(" %d\n",n);
-  }
+ while (n>0)
+ {
+   i= n%10;
+   sum=sum*10+i;
+   n/=10;
+ }
+
+ printf("%d",sum);
+ 
+
+  
   
    
 }

@@ -1,13 +1,20 @@
 #include<stdio.h>
 void main(){
-    int i,n,sum=0;
+    int rev=0,n,rem;
 
-    printf("enter your number : ");
-    scanf("%d",&n);
+     printf("enter your number : ");
+     scanf("%d",&n);
 
-    for ( i = 0; i < count; i++)
-    {
-        /* code */
-    }
+     while (n>0)
+     {
+       rem = n%10;
+       rev= rev *10 +rem;
+       n/=10;
+     }
+
+     printf("%d",rev);
+     
+    
+
     
 }
