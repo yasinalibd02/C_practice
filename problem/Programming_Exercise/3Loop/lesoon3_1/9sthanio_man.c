@@ -5,9 +5,9 @@ int main() {
 
  int i, n,sum=0;
 
-  for ( i = 5; i <=15; i++)
+  for ( i = 10; i <=20; i++)
   {
-   sum = sum +i;
+   sum = sum +i % 10;
   }
   printf("%d",sum);
   
