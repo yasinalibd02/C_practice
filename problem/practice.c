@@ -3,12 +3,11 @@
 
 int main() {
 
- int A,B;
-  
-  printf("enter your two number");
-  scanf("%d %d",&A ,&B);
- int X= A+B;
-  printf("rezult is %d\n",X);
+ int A,B,X;
+   
+    scanf("%d %d",&A ,&B);
+     X= A+B;
+     printf("X = %d\n",X);
   
 
 
